@@ -2798,12 +2798,10 @@
 
 	#header {
 		padding: 9em 0 9em 0 ;
-		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		background-image: url("../../images/background.jpg");
+		background-position: center, bottom;
+		background-size: cover;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
@@ -2823,6 +2821,8 @@
 
 		#header header p {
 			color: #ffffff;
+			max-width: 600px;
+			margin: auto;
 		}
 
 		#header header.major:after {
@@ -3419,3 +3419,16 @@
 			}
 
 	}
+
+
+#logo {
+	margin: auto;
+	width: 230px;
+	background: white;
+	margin-bottom: 20px;
+}
+
+#header-p#header-p {
+	margin: auto;
+	max-width: 600px;
+}
